@@ -1,14 +1,19 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as f:
+    long_description = f.read()
+
 setup(
     name='wavplot',
-    version='0.1.0',
+    version='0.1.1',
     author='Fabian-Robert Stöter, Nils Werner',
     author_email='mail@faroit.com, nils@hey.com',
     url='https://github.com/nils-werner/wavplot',
 
     description='Generate waveform and spectrogram png images from a wav file',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
 
     install_requires=[
         'scipy',

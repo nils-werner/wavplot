@@ -1,6 +1,6 @@
 # WAVPLOT
 
-![Nice plot](demo/out.png)
+![Nice plot](https://github.com/nils-werner/wavplot/raw/master/demo/out.png)
 
 **Tired of waveform plots that blow up your paper?**
 
